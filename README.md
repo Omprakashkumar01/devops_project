@@ -88,6 +88,30 @@ kubectl apply -f bookinfo-gateway.yaml
 cd "C:\Users\omjsr\Downloads\istio-1.24.2-win-amd64 (1)\istio-1.24.2\samples"
 ```
 ```
+kubectl.exe apply -f addons/
+```
+```
+kubectl get pods -n istio-system
+```
+
+```
+kubectl get svc -n istio-system
+```
+```
+kubectl get gateway -n default
+```
+```
+kubectl get vs -n default
+```
+```
+helm repo add kiali https://kiali.org/helm-charts
+helm repo update
+```
+
+```
+kubectl port-forward -n istio-system svc/kiali 20001:20001
+```
+```
 istioctl  dashboard kiali
 ```
 
