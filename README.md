@@ -1,4 +1,5 @@
 #DevOps project
+
 ####################### GitOps ##########################################
 ```
 kubectl create namespace argocd
