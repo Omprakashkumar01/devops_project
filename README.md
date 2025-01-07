@@ -31,6 +31,9 @@ kubectl port-forward svc/argocd-server -n argocd 8080:443
 ```
 Access ArgoCD at https://127.0.0.1:8080.
 
+![Screenshot (22)](https://github.com/user-attachments/assets/5e77346e-2639-4411-bb4b-08c19d6a8844)
+
+
 Initialize a new Git repository and push it to GitHub
 ```
 git init
@@ -66,6 +69,7 @@ kubectl port-forward  svc/productpage  -n default  80:9080
 ```
 
 http://127.0.0.1/productpage
+![Screenshot (58)](https://github.com/user-attachments/assets/bd04ea2c-d73f-409a-bf62-39feeb4fdc15)
 
 
 Install Istio using the demo profile:
@@ -112,12 +116,16 @@ Kiali:
 ```
 kubectl port-forward -n istio-system svc/kiali 20001:20001
 ```
+![Screenshot (62)](https://github.com/user-attachments/assets/6cb02809-5b2e-4959-96ce-c69675f0a10f)
+
 Access at http://127.0.0.1:20001.
 
 Prometheus:
 ```
 kubectl port-forward -n istio-system svc/prometheus 9090:9090
 ```
+![Screenshot (64)](https://github.com/user-attachments/assets/e06ab53d-b47b-4bb0-af5c-76ee2256c829)
+
 Access at http://127.0.0.1:9090.
 
 Grafana
@@ -125,6 +133,8 @@ Grafana
 kubectl port-forward -n istio-system svc/grafana 3000:3000
 ```
 Access at http://127.0.0.1:3000.
+![Screenshot (66)](https://github.com/user-attachments/assets/54e63269-fa89-49f4-9090-03cf74a592e2)
+
 
 
 
