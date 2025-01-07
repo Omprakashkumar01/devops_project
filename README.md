@@ -1,6 +1,12 @@
 #DevOps project
 
-####################### GitOps ##########################################
+
+```
+eksctl create cluster --name devopsproj
+```
+```
+
+```
 ```
 kubectl create namespace argocd
 ```
