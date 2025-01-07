@@ -112,7 +112,10 @@ helm repo update
 kubectl port-forward -n istio-system svc/kiali 20001:20001
 ```
 ```
-istioctl  dashboard kiali
+kubectl port-forward -n istio-system svc/prometheus 9090:9090
+```
+```
+kubectl port-forward -n istio-system svc/grafana 3000:3000
 ```
 
 
