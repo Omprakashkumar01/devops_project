@@ -84,12 +84,9 @@ kubectl get pods -n default
 ```
 kubectl apply -f bookinfo-gateway.yaml
 ```
-
-
-
-
+```
 cd "C:\Users\omjsr\Downloads\istio-1.24.2-win-amd64 (1)\istio-1.24.2\samples"
-# kubectl.exe  apply -f addons/
+```
 ```
 istioctl  dashboard kiali
 ```
